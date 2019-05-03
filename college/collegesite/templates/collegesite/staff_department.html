@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for staff in staff_deparment %}
+<table style ="width:100%">
+<tr>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Department</td>
+<tr>
+ <tr>
+    <td>{{staff.name}}</td>
+    <td>{{staff.email}}</td>
+    <td>{{stafft.department}}</td>
+  <tr>
+    </table>
+    {% endfor %}
+
+</body>
+</html>

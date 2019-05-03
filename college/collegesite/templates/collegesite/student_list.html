@@ -1,0 +1,14 @@
+{% for student in list_of_selected_students %}
+<table style ="width:100%">
+<tr>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Department</td>
+<tr>
+ <tr>
+    <td>{{student.name}}</td>
+    <td>{{student.email}}</td>
+    <td>{{student.department}}</td>
+  <tr>
+    </table>
+    {% endfor %}

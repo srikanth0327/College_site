@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Name:{{stnd.name}}</p><br>
+<img src="{{stnd.profilepic}}" ><br><br>
+<p>Email:{{stnd.email}}</p><br>
+<p>Age:{{stnd.age}}</p><br>
+<p>Date of Birth:{{stnd.name.dob}}</p>
+<p>Gender:{{stnd.name.gender}}</p><br>
+<p>Father Name:{{stnd.father}}</p><br>
+<p>Mother Name:{{stnd.mother}}</p><br>
+<p>Nationality:{{stnd.name.nationality}}</p>
+<p>SSC Memo:{{stnd.name.sccmemo}}</p><br>
+<p>Intermediate Memo:{{stnd.name.intermemo.url}}</p><br>
+<p>Department:{{stnd.name.department.url}}</p><br>
+
+
+<a href = "{% url 'collegesite:user_logout' %}">Logout</a>
+</body>
+</html>
